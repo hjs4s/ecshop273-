@@ -1,0 +1,1016 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e7b22b62-813b-4617-aca0-cfa2ea644820" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="shop_config.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/shop_config.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1100">
+              <caret line="66" column="5" lean-forward="false" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
+              <folding>
+                <marker date="1503735229356" expanded="true" signature="3104:3126" ph="SELECT id, v... ${$ecs-&gt;table('shop_config')}" />
+                <marker date="1503735229356" expanded="true" signature="3527:3613" ph="SELECT * FRO... ${$ecs-&gt;table('shop_config')}" />
+                <marker date="1503735229356" expanded="true" signature="5924:6015" ph="SELECT regio... ${$ecs-&gt;table('region')}" />
+                <marker date="1503735229356" expanded="true" signature="6050:6142" ph="SELECT regio... ${$ecs-&gt;table('region')}" />
+                <marker date="1503735229356" expanded="true" signature="6173:6261" ph="SELECT regio... ${$ecs-&gt;table('region')}" />
+                <marker date="1503735229356" expanded="true" signature="9764:9902" ph="SELECT * FRO... ${$ecs-&gt;table('shop_config')}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lib_common.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/includes/lib_common.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="500">
+              <caret line="190" column="1" lean-forward="false" selection-start-line="190" selection-start-column="1" selection-end-line="190" selection-end-column="1" />
+              <folding>
+                <marker date="1334114182000" expanded="true" signature="4139:4280" ph="SELECT regio... ${$GLOBALS['ecs']-&gt;table('region')}" />
+                <marker date="1334114182000" expanded="true" signature="4520:4625" ph="SELECT confi... ${$GLOBALS['ecs']-&gt;table('shipping_area')}" />
+                <marker date="1334114182000" expanded="true" signature="15010:15099" ph="SELECT code,... ${$GLOBALS['ecs']-&gt;table('shop_config')}" />
+                <marker date="1334114182000" expanded="true" signature="19083:19175" ph="SELECT brand... ${$GLOBALS['ecs']-&gt;table('brand')}" />
+                <marker date="1334114182000" expanded="true" signature="21148:21331" ph="SELECT act_i... ${$GLOBALS['ecs']-&gt;table('goods_activity')}" />
+                <marker date="1334114182000" expanded="true" signature="23842:24028" ph="SELECT act_i... ${$GLOBALS['ecs']-&gt;table('favourable_activity')}" />
+                <marker date="1334114182000" expanded="true" signature="24767:24874" ph="SELECT cat_i... ${$GLOBALS['ecs']-&gt;table('goods')}" />
+                <marker date="1334114182000" expanded="true" signature="29231:29369" ph="SELECT templ... ${$GLOBALS['ecs']-&gt;table('mail_templates')}" />
+                <marker date="1334114182000" expanded="true" signature="29981:30412" ph="INSERT INTO ${$GLOBALS['ecs']-&gt;table('order_action')}... " />
+                <marker date="1334114182000" expanded="true" signature="30177:30412" ph="SELECT order... ${$GLOBALS['ecs']-&gt;table('order_info')}" />
+                <marker date="1334114182000" expanded="true" signature="32012:32200" ph="SELECT goods... ${$GLOBALS['ecs']-&gt;table('order_goods')}" />
+                <marker date="1334114182000" expanded="true" signature="32240:32498" ph="SELECT goods... ${$GLOBALS['ecs']-&gt;table('order_goods')}" />
+                <marker date="1334114182000" expanded="true" signature="34404:34520" ph="SELECT COUNT... ${$GLOBALS['ecs']-&gt;table('virtual_card')}" />
+                <marker date="1334114182000" expanded="true" signature="34749:34913" ph="SELECT card_... ${$GLOBALS['ecs']-&gt;table('virtual_card')}" />
+                <marker date="1334114182000" expanded="true" signature="36514:36633" ph="SELECT order... ${$GLOBALS['ecs']-&gt;table('order_info')}" />
+                <marker date="1334114182000" expanded="true" signature="38472:38628" ph="SELECT card_... ${$GLOBALS['ecs']-&gt;table('virtual_card')}" />
+                <marker date="1334114182000" expanded="true" signature="40476:40655" ph="SELECT ext_i... ${$GLOBALS['ecs']-&gt;table('goods_activity')}" />
+                <marker date="1334114182000" expanded="true" signature="69944:70313" ph="SELECT a.att... ${$GLOBALS['ecs']-&gt;table('attribute')}" />
+                <marker date="1334114182000" expanded="true" signature="70884:71253" ph="SELECT a.att... ${$GLOBALS['ecs']-&gt;table('attribute')}" />
+                <marker date="1334114182000" expanded="true" signature="74805:75223" ph="SELECT pg.go... ${$GLOBALS['ecs']-&gt;table('package_goods')}" />
+                <marker date="1334114182000" expanded="true" signature="76159:76277" ph="SELECT goods... ${$GLOBALS['ecs']-&gt;table('goods_attr')}" />
+                <marker date="1334114182000" expanded="true" signature="77828:77900" ph="SELECT * FRO... ${$GLOBALS['ecs']-&gt;table('products')}" />
+                <marker date="1334114182000" expanded="true" signature="77996:78083" ph="SELECT goods... ${$GLOBALS['ecs']-&gt;table('goods_attr')}" />
+                <marker date="1334114182000" expanded="true" signature="79491:79764" ph="SELECT ga.go... ${$GLOBALS['ecs']-&gt;table('goods_attr')}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="init.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/includes/init.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3800">
+              <caret line="201" column="0" lean-forward="false" selection-start-line="201" selection-start-column="0" selection-end-line="201" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cls_template.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/includes/cls_template.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="21600">
+              <caret line="1091" column="17" lean-forward="false" selection-start-line="1091" selection-start-column="17" selection-end-line="1091" selection-end-column="17" />
+              <folding>
+                <marker date="1503731913410" expanded="true" signature="37991:37997" ph=" " />
+                <marker date="1503731913410" expanded="true" signature="38392:38398" ph=" " />
+                <marker date="1503731913410" expanded="true" signature="39062:39068" ph=" " />
+                <marker date="1503731913410" expanded="true" signature="39074:39080" ph=" " />
+                <marker date="1503731913410" expanded="true" signature="39153:39159" ph=" " />
+                <marker date="1503731913410" expanded="true" signature="39165:39171" ph=" " />
+                <marker date="1503731913410" expanded="true" signature="39989:39995" ph=" " />
+                <marker date="1503731913410" expanded="true" signature="40417:40423" ph=" " />
+                <marker date="1503731913410" expanded="true" signature="40806:40812" ph=" " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="shop_config_form.htm" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/templates/shop_config_form.htm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="81" column="27" lean-forward="false" selection-start-line="81" selection-start-column="27" selection-end-line="81" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="goods_batch.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/goods_batch.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="545">
+              <caret line="920" column="14" lean-forward="false" selection-start-line="920" selection-start-column="14" selection-end-line="920" selection-end-column="14" />
+              <folding>
+                <marker date="1503734849384" expanded="true" signature="5874:5909" ph="SELECT MAX(g... ${$ecs-&gt;table('goods')}" />
+                <marker date="1503734849384" expanded="true" signature="7265:7300" ph="SELECT MAX(g... ${$ecs-&gt;table('goods')}" />
+                <marker date="1503734849384" expanded="true" signature="8580:8615" ph="SELECT MAX(g... ${$ecs-&gt;table('goods')}" />
+                <marker date="1503734849384" expanded="true" signature="10095:10130" ph="SELECT MAX(g... ${$ecs-&gt;table('goods')}" />
+                <marker date="1503734849384" expanded="true" signature="12557:12590" ph="SELECT brand... ${$ecs-&gt;table('brand')}" />
+                <marker date="1503734849384" expanded="true" signature="12961:12991" ph="SELECT MAX(g... ${$ecs-&gt;table('goods')}" />
+                <marker date="1503734849384" expanded="true" signature="15399:15496" ph="INSERT INTO ${$ecs-&gt;table('brand')}... " />
+                <marker date="1503734849384" expanded="true" signature="21991:22081" ph="SELECT DISTI... ${$ecs-&gt;table('goods')}" />
+                <marker date="1503734849384" expanded="true" signature="22244:22380" ph="SELECT DISTI... ${$ecs-&gt;table('goods')}" />
+                <marker date="1503734849384" expanded="true" signature="22532:22546" ph="SELECT * FRO... ${$ecs-&gt;table('products')}" />
+                <marker date="1503734849384" expanded="true" signature="23573:23626" ph="SELECT DISTI... ${$ecs-&gt;table('member_price')}" />
+                <marker date="1503734849384" expanded="true" signature="26810:26922" ph="SELECT COUNT... ${$ecs-&gt;table('member_price')}" />
+                <marker date="1503734849384" expanded="true" signature="27133:27236" ph="DELETE FROM " />
+                <marker date="1503734849384" expanded="true" signature="29893:30005" ph="SELECT COUNT... ${$ecs-&gt;table('member_price')}" />
+                <marker date="1503734849384" expanded="true" signature="30236:30339" ph="DELETE FROM " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Core_c.php" pinned="false" current-in-tab="false">
+        <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/Core/Core_c.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="8" column="6" lean-forward="false" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="shop_config.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/languages/zh_cn/admin/shop_config.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="21" column="16" lean-forward="false" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="shop_config.htm" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/templates/shop_config.htm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1020">
+              <caret line="51" column="17" lean-forward="false" selection-start-line="51" selection-start-column="17" selection-end-line="51" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>$auth</find>
+      <find>keywords</find>
+      <find>get_random_name</find>
+      <find>backup</find>
+      <find>mysqli_real_escape_string</find>
+      <find>success</find>
+      <find>static</find>
+      <find>backup_success</find>
+      <find>mysqli_escape_string</find>
+      <find>escape_string</find>
+      <find>free_money</find>
+      <find>dump_escape_string</find>
+      <find>print</find>
+      <find>print_</find>
+      <find>set_cookie</find>
+      <find>function login</find>
+      <find>add_user</find>
+      <find>template</find>
+      <find>laebl</find>
+      <find>preg_replac</find>
+      <find>preg_replace_callback</find>
+      <find>preg_replace</find>
+      <find>display_options</find>
+      <find>name</find>
+      <find>.name</find>
+      <find>select</find>
+      <find>201</find>
+      <find>lang</find>
+      <find>manual</find>
+      <find>cfg_name</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/includes/cls_json.php" />
+        <option value="$PROJECT_DIR$/user.php" />
+        <option value="$PROJECT_DIR$/includes/cls_ecshop.php" />
+        <option value="$PROJECT_DIR$/includes/cls_smtp.php" />
+        <option value="$PROJECT_DIR$/includes/init.php" />
+        <option value="$PROJECT_DIR$/includes/lib_main.php" />
+        <option value="$PROJECT_DIR$/includes/cls_image.php" />
+        <option value="$PROJECT_DIR$/admin/sms_url.php" />
+        <option value="$PROJECT_DIR$/admin/goods.php" />
+        <option value="$PROJECT_DIR$/includes/modules/payment/alipay.php" />
+        <option value="$PROJECT_DIR$/includes/modules/payment/balance.php" />
+        <option value="$PROJECT_DIR$/includes/modules/payment/bank.php" />
+        <option value="$PROJECT_DIR$/includes/modules/payment/cappay.php" />
+        <option value="$PROJECT_DIR$/includes/modules/payment/chinabank.php" />
+        <option value="$PROJECT_DIR$/includes/modules/payment/cod.php" />
+        <option value="$PROJECT_DIR$/includes/modules/payment/epay.php" />
+        <option value="$PROJECT_DIR$/includes/modules/payment/ips.php" />
+        <option value="$PROJECT_DIR$/includes/modules/payment/kuaiqian.php" />
+        <option value="$PROJECT_DIR$/includes/modules/payment/paypal.php" />
+        <option value="$PROJECT_DIR$/includes/modules/payment/paypal_ec.php" />
+        <option value="$PROJECT_DIR$/includes/modules/payment/post.php" />
+        <option value="$PROJECT_DIR$/includes/modules/payment/shenzhou.php" />
+        <option value="$PROJECT_DIR$/includes/modules/payment/tenpay.php" />
+        <option value="$PROJECT_DIR$/includes/modules/payment/tenpayc2c.php" />
+        <option value="$PROJECT_DIR$/admin/sitemap.php" />
+        <option value="$PROJECT_DIR$/admin/database.php" />
+        <option value="$PROJECT_DIR$/admin/includes/cls_sql_dump.php" />
+        <option value="$PROJECT_DIR$/includes/cls_mysql.php" />
+        <option value="$PROJECT_DIR$/includes/modules/integrates/integrate.php" />
+        <option value="$PROJECT_DIR$/includes/modules/integrates/discuz55.php" />
+        <option value="$PROJECT_DIR$/includes/modules/integrates/dvbbs.php" />
+        <option value="$PROJECT_DIR$/includes/modules/integrates/ecshop.php" />
+        <option value="$PROJECT_DIR$/includes/modules/integrates/phpbb.php" />
+        <option value="$PROJECT_DIR$/includes/modules/integrates/vbb.php" />
+        <option value="$PROJECT_DIR$/includes/modules/integrates/phpwind6.php" />
+        <option value="$PROJECT_DIR$/includes/modules/integrates/ucenter.php" />
+        <option value="$PROJECT_DIR$/includes/cls_template.php" />
+        <option value="$PROJECT_DIR$/languages/zh_cn/admin/shop_config.php" />
+        <option value="$PROJECT_DIR$/admin/goods_batch.php" />
+        <option value="$PROJECT_DIR$/admin/shop_config.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ecshop2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ecshop2" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ecshop2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ecshop2" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path" value="D:/Program Files/nodejs/node" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="js-jscs-nodeInterpreter" value="D:\Program Files\nodejs\node.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pathVariables" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="CodeceptionConfigurationType" factoryName="Codeception">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpSpecConfigurationType" factoryName="PHPSpec">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\heenlai\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e7b22b62-813b-4617-aca0-cfa2ea644820" name="Default" comment="" />
+      <created>1490193853989</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1490193853989</updated>
+      <workItem from="1490193855121" duration="1485000" />
+      <workItem from="1490276744451" duration="2429000" />
+      <workItem from="1491570824059" duration="252000" />
+      <workItem from="1503663312949" duration="2201000" />
+      <workItem from="1503710489503" duration="20952000" />
+      <workItem from="1503734807506" duration="1020000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="28339000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15618336" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="找到" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32719395" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/includes/lib_base.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="345" column="29" lean-forward="false" selection-start-line="345" selection-start-column="29" selection-end-line="345" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/date/date.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="454" column="3" lean-forward="true" selection-start-line="454" selection-start-column="3" selection-end-line="454" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/goods.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="67" column="54" lean-forward="false" selection-start-line="67" selection-start-column="54" selection-end-line="67" selection-end-column="54" />
+          <folding>
+            <marker date="1503715219595" expanded="true" signature="7591:7752" ph="DELETE FROM " />
+            <marker date="1503715219595" expanded="true" signature="7854:7973" ph="DELETE FROM " />
+            <marker date="1503715219595" expanded="true" signature="8077:8197" ph="DELETE FROM " />
+            <marker date="1503715219595" expanded="true" signature="8260:8324" ph="DELETE FROM " />
+            <marker date="1503715219595" expanded="true" signature="8458:8539" ph="SELECT * FRO... ${$ecs-&gt;table('goods')}" />
+            <marker date="1503715219595" expanded="true" signature="11385:11554" ph="DELETE FROM " />
+            <marker date="1503715219595" expanded="true" signature="12471:12594" ph="DELETE FROM " />
+            <marker date="1503715219595" expanded="true" signature="13087:13211" ph="DELETE FROM " />
+            <marker date="1503715219595" expanded="true" signature="13716:13780" ph="DELETE FROM " />
+            <marker date="1503715219595" expanded="true" signature="14298:14388" ph="SELECT cat_i... ${$ecs-&gt;table('goods_cat')}" />
+            <marker date="1503715219595" expanded="true" signature="15240:15326" ph="SELECT * FRO... ${$ecs-&gt;table('goods_gallery')}" />
+            <marker date="1503715219595" expanded="true" signature="19119:19273" ph="SELECT COUNT... ${$ecs-&gt;table('goods')}" />
+            <marker date="1503715219595" expanded="true" signature="30311:30341" ph="SELECT MAX(g... ${$ecs-&gt;table('goods')}" />
+            <marker date="1503715219595" expanded="true" signature="32646:33951" ph="INSERT INTO ${$ecs-&gt;table('goods')}... " />
+            <marker date="1503715219595" expanded="true" signature="34007:35318" ph="INSERT INTO ${$ecs-&gt;table('goods')}... " />
+            <marker date="1503715219595" expanded="true" signature="38799:38892" ph="SELECT attr_... ${$ecs-&gt;table('attribute')}" />
+            <marker date="1503715219595" expanded="true" signature="39113:39360" ph="SELECT g.*, ${$ecs-&gt;table('goods_attr')}" />
+            <marker date="1503715219595" expanded="true" signature="41420:41607" ph="INSERT INTO ${$ecs-&gt;table('goods_attr')}... " />
+            <marker date="1503715219595" expanded="true" signature="41941:42037" ph="DELETE FROM " />
+            <marker date="1503715219595" expanded="true" signature="44420:44611" ph="INSERT INTO ${$ecs-&gt;table('goods_gallery')}... " />
+            <marker date="1503715219595" expanded="true" signature="51580:51657" ph="SELECT goods... ${$ecs-&gt;table('products')}" />
+            <marker date="1503715219595" expanded="true" signature="52325:52402" ph="SELECT goods... ${$ecs-&gt;table('products')}" />
+            <marker date="1503715219595" expanded="true" signature="53423:53495" ph="SELECT goods... ${$ecs-&gt;table('products')}" />
+            <marker date="1503715219595" expanded="true" signature="61963:62047" ph="DELETE FROM " />
+            <marker date="1503715219595" expanded="true" signature="62744:62821" ph="DELETE FROM " />
+            <marker date="1503715219595" expanded="true" signature="62877:62954" ph="DELETE FROM " />
+            <marker date="1503715219595" expanded="true" signature="62991:63068" ph="DELETE FROM " />
+            <marker date="1503715219595" expanded="true" signature="63105:63179" ph="DELETE FROM " />
+            <marker date="1503715219595" expanded="true" signature="63216:63289" ph="DELETE FROM " />
+            <marker date="1503715219595" expanded="true" signature="63326:63402" ph="DELETE FROM " />
+            <marker date="1503715219595" expanded="true" signature="63439:63515" ph="DELETE FROM " />
+            <marker date="1503715219595" expanded="true" signature="63552:63627" ph="DELETE FROM " />
+            <marker date="1503715219595" expanded="true" signature="63664:63738" ph="DELETE FROM " />
+            <marker date="1503715219595" expanded="true" signature="63775:63854" ph="DELETE FROM " />
+            <marker date="1503715219595" expanded="true" signature="63891:63958" ph="DELETE FROM " />
+            <marker date="1503715219595" expanded="true" signature="63995:64087" ph="DELETE FROM " />
+            <marker date="1503715219595" expanded="true" signature="64124:64201" ph="DELETE FROM " />
+            <marker date="1503715219595" expanded="true" signature="64238:64315" ph="DELETE FROM " />
+            <marker date="1503715219595" expanded="true" signature="64352:64430" ph="DELETE FROM " />
+            <marker date="1503715219595" expanded="true" signature="64540:64616" ph="DELETE FROM " />
+            <marker date="1503715219595" expanded="true" signature="66303:66395" ph="DELETE FROM " />
+            <marker date="1503715219595" expanded="true" signature="67721:67904" ph="INSERT INTO ${$ecs-&gt;table('link_goods')}... " />
+            <marker date="1503715219595" expanded="true" signature="67974:68153" ph="INSERT INTO ${$ecs-&gt;table('link_goods')}... " />
+            <marker date="1503715219595" expanded="true" signature="69130:69238" ph="DELETE FROM " />
+            <marker date="1503715219595" expanded="true" signature="69577:69681" ph="DELETE FROM " />
+            <marker date="1503715219595" expanded="true" signature="70701:70875" ph="INSERT INTO ${$ecs-&gt;table('group_goods')}... " />
+            <marker date="1503715219595" expanded="true" signature="71716:71806" ph="DELETE FROM " />
+            <marker date="1503715219595" expanded="true" signature="72833:72950" ph="SELECT artic... ${$ecs-&gt;table('article')}" />
+            <marker date="1503715219595" expanded="true" signature="73681:73835" ph="INSERT INTO ${$ecs-&gt;table('goods_article')}... " />
+            <marker date="1503715219595" expanded="true" signature="74634:74760" ph="DELETE FROM " />
+            <marker date="1503715219595" expanded="true" signature="75628:75742" ph="SELECT goods... ${$ecs-&gt;table('goods')}" />
+            <marker date="1503715219595" expanded="true" signature="78469:78583" ph="SELECT goods... ${$ecs-&gt;table('goods')}" />
+            <marker date="1503715219595" expanded="true" signature="81316:81392" ph="DELETE FROM " />
+            <marker date="1503715219595" expanded="true" signature="84323:84456" ph="SELECT goods... ${$ecs-&gt;table('goods')}" />
+            <marker date="1503715219595" expanded="true" signature="86341:86556" ph="INSERT INTO ${$GLOBALS['ecs']-&gt;table('products')}... " />
+            <marker date="1503715219595" expanded="true" signature="88887:88997" ph="SELECT produ... ${$GLOBALS['ecs']-&gt;table('products')}" />
+            <marker date="1503715219595" expanded="true" signature="89339:89400" ph="DELETE FROM " />
+            <marker date="1503715219595" expanded="true" signature="91689:91808" ph="DELETE FROM " />
+            <marker date="1503715219595" expanded="true" signature="92046:92253" ph="INSERT INTO ${$GLOBALS['ecs']-&gt;table('volume_price')}... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/sms_url.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="30" column="12" lean-forward="true" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="106" column="76" lean-forward="false" selection-start-line="106" selection-start-column="68" selection-end-line="106" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="281" column="9" lean-forward="false" selection-start-line="281" selection-start-column="9" selection-end-line="281" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/pcre/pcre.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="306" column="70" lean-forward="false" selection-start-line="306" selection-start-column="70" selection-end-line="306" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/includes/lib_main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="172" column="0" lean-forward="true" selection-start-line="172" selection-start-column="0" selection-end-line="172" selection-end-column="0" />
+          <folding>
+            <marker date="1334114180000" expanded="true" signature="2563:2783" ph="INSERT INTO ${$GLOBALS['ecs']-&gt;table('admin_log')}... " />
+            <marker date="1334114180000" expanded="true" signature="4131:4216" ph="SELECT id FR... ${$ecs-&gt;table('shop_config')}" />
+            <marker date="1334114180000" expanded="true" signature="4268:4396" ph="INSERT INTO ${$ecs-&gt;table('shop_config')}... " />
+            <marker date="1334114180000" expanded="true" signature="5791:5909" ph="SELECT type_... ${$GLOBALS['ecs']-&gt;table('bonus_type')}" />
+            <marker date="1334114180000" expanded="true" signature="6369:6412" ph="SELECT rank_... ${$GLOBALS['ecs']-&gt;table('user_rank')}" />
+            <marker date="1334114180000" expanded="true" signature="6917:7028" ph="SELECT user_... ${$GLOBALS['ecs']-&gt;table('users')}" />
+            <marker date="1334114180000" expanded="true" signature="11484:11598" ph="SELECT * FRO... ${$GLOBALS['ecs']-&gt;table('region')}" />
+            <marker date="1334114180000" expanded="true" signature="12605:12696" ph="SELECT cat_i... ${$GLOBALS['ecs']-&gt;table('goods_type')}" />
+            <marker date="1334114180000" expanded="true" signature="13206:13290" ph="SELECT pay_i... ${$GLOBALS['ecs']-&gt;table('payment')}" />
+            <marker date="1334114180000" expanded="true" signature="16913:17003" ph="SELECT attr_... ${$GLOBALS['ecs']-&gt;table('goods_type')}" />
+            <marker date="1334114180000" expanded="true" signature="19039:19186" ph="SELECT COUNT... ${$GLOBALS['ecs']-&gt;table('category')}" />
+            <marker date="1334114180000" expanded="true" signature="19303:19406" ph="SELECT COUNT... ${$GLOBALS['ecs']-&gt;table('brand')}" />
+            <marker date="1334114180000" expanded="true" signature="19584:19712" ph="SELECT * FRO... ${$GLOBALS['ecs']-&gt;table('admin_user')}" />
+            <marker date="1334114180000" expanded="true" signature="20146:20271" ph="SELECT suppl... ${$GLOBALS['ecs']-&gt;table(&quot;suppliers&quot;)}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/modules/payment/bank.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="76" column="5" lean-forward="false" selection-start-line="76" selection-start-column="5" selection-end-line="76" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/modules/payment/balance.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="76" column="5" lean-forward="false" selection-start-line="76" selection-start-column="5" selection-end-line="76" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/modules/payment/alipay.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="82" column="5" lean-forward="false" selection-start-line="82" selection-start-column="5" selection-end-line="82" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/modules/payment/cappay.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="78" column="5" lean-forward="false" selection-start-line="78" selection-start-column="5" selection-end-line="78" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/modules/payment/chinabank.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="79" column="7" lean-forward="false" selection-start-line="79" selection-start-column="7" selection-end-line="79" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/modules/payment/cod.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="79" column="5" lean-forward="false" selection-start-line="79" selection-start-column="5" selection-end-line="79" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/modules/payment/epay.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="80" column="5" lean-forward="false" selection-start-line="80" selection-start-column="5" selection-end-line="80" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/modules/payment/ips.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="78" column="5" lean-forward="false" selection-start-line="78" selection-start-column="5" selection-end-line="78" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/modules/payment/kuaiqian.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="80" column="8" lean-forward="false" selection-start-line="80" selection-start-column="8" selection-end-line="80" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/modules/payment/paypal.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="79" column="5" lean-forward="false" selection-start-line="79" selection-start-column="5" selection-end-line="79" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/modules/payment/paypal_ec.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="92" column="5" lean-forward="false" selection-start-line="92" selection-start-column="5" selection-end-line="92" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/modules/payment/post.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="75" column="5" lean-forward="false" selection-start-line="75" selection-start-column="5" selection-end-line="75" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/modules/payment/shenzhou.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="77" column="5" lean-forward="false" selection-start-line="77" selection-start-column="5" selection-end-line="77" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/modules/payment/syl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3540">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/modules/payment/tenpay.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="80" column="5" lean-forward="false" selection-start-line="80" selection-start-column="5" selection-end-line="80" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/modules/payment/tenpayc2c.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="80" column="5" lean-forward="false" selection-start-line="80" selection-start-column="5" selection-end-line="80" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/payment.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="77" column="0" lean-forward="true" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/sitemap.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="101" column="14" lean-forward="true" selection-start-line="101" selection-start-column="14" selection-end-line="101" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/includes/cls_google_sitemap.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-60">
+          <caret line="20" column="6" lean-forward="false" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/mysql/mysql.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="672" column="9" lean-forward="false" selection-start-line="672" selection-start-column="9" selection-end-line="672" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/order.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="2162" column="27" lean-forward="false" selection-start-line="2162" selection-start-column="27" selection-end-line="2162" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="151" column="25" lean-forward="false" selection-start-line="151" selection-start-column="25" selection-end-line="151" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/includes/cls_sql_dump.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="315" column="45" lean-forward="false" selection-start-line="315" selection-start-column="44" selection-end-line="315" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/cls_mysql.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="373" column="75" lean-forward="false" selection-start-line="373" selection-start-column="75" selection-end-line="373" selection-end-column="75" />
+          <folding>
+            <marker date="1503725455530" expanded="true" signature="16935:17034" ph="INSERT INTO ${$table}... " />
+            <marker date="1503725455530" expanded="true" signature="18998:19097" ph="INSERT INTO ${$table}... " />
+            <marker date="1503725455530" expanded="true" signature="19287:19386" ph="INSERT INTO ${$table}... " />
+            <marker date="1503725455530" expanded="true" signature="20358:20392" ph="SELECT COUNT... ${$table}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/mysqli/mysqli.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="2104" column="0" lean-forward="false" selection-start-line="2104" selection-start-column="0" selection-end-line="2104" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/modules/integrates/discuz55.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="60" column="19" lean-forward="true" selection-start-line="60" selection-start-column="19" selection-end-line="60" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/modules/integrates/dvbbs.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="57" column="27" lean-forward="false" selection-start-line="57" selection-start-column="27" selection-end-line="57" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/modules/integrates/ecshop.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="63" column="5" lean-forward="false" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/modules/integrates/integrate.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="186" column="5" lean-forward="false" selection-start-line="186" selection-start-column="5" selection-end-line="186" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/modules/integrates/vbb.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="97" column="54" lean-forward="false" selection-start-line="97" selection-start-column="54" selection-end-line="97" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/modules/integrates/phpwind6.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="101" column="54" lean-forward="false" selection-start-line="101" selection-start-column="54" selection-end-line="101" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/modules/integrates/ucenter.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="197" column="5" lean-forward="false" selection-start-line="197" selection-start-column="5" selection-end-line="197" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/modules/integrates/phpbb.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="96" column="54" lean-forward="false" selection-start-line="96" selection-start-column="54" selection-end-line="96" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/lib_main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="562">
+          <caret line="2046" column="45" lean-forward="false" selection-start-line="2046" selection-start-column="45" selection-end-line="2046" selection-end-column="45" />
+          <folding>
+            <marker date="1503714702723" expanded="true" signature="1751:1846" ph="SELECT speci... ${$GLOBALS['ecs']-&gt;table('user_rank')}" />
+            <marker date="1503714702723" expanded="true" signature="2318:2488" ph="SELECT rank_... ${$GLOBALS['ecs']-&gt;table('user_rank')}" />
+            <marker date="1503714702723" expanded="true" signature="2934:3041" ph="SELECT rank_... ${$GLOBALS['ecs']-&gt;table('user_rank')}" />
+            <marker date="1503714702723" expanded="true" signature="6624:6628" ph="&gt;" />
+            <marker date="1503714702723" expanded="true" signature="7122:7126" ph="&gt;" />
+            <marker date="1503714702723" expanded="true" signature="7504:7508" ph="&gt;" />
+            <marker date="1503714702723" expanded="true" signature="7873:7877" ph="&gt;" />
+            <marker date="1503714702723" expanded="true" signature="8252:8256" ph="&gt;" />
+            <marker date="1503714702723" expanded="true" signature="8632:8636" ph="&gt;" />
+            <marker date="1503714702723" expanded="true" signature="8927:8931" ph="&gt;" />
+            <marker date="1503714702723" expanded="true" signature="9260:9300" ph="SELECT cat_i... ${$GLOBALS['ecs']-&gt;table('category')}" />
+            <marker date="1503714702723" expanded="true" signature="10777:10781" ph="&gt;" />
+            <marker date="1503714702723" expanded="true" signature="11045:11226" ph="SELECT id, n... ${$GLOBALS['ecs']-&gt;table('template')}" />
+            <marker date="1503714702723" expanded="true" signature="12410:12504" ph="SELECT cat_n... ${$GLOBALS['ecs']-&gt;table('article_cat')}" />
+            <marker date="1503714702723" expanded="true" signature="24879:25047" ph="SELECT SUM(o... ${$GLOBALS['ecs']-&gt;table('vote_option')}" />
+            <marker date="1503714702723" expanded="true" signature="33967:34461" ph="INSERT INTO ${$GLOBALS['ecs']-&gt;table('stats')}... " />
+            <marker date="1503714702723" expanded="true" signature="47171:47282" ph="DELETE FROM " />
+            <marker date="1503714702723" expanded="true" signature="47538:47692" ph="SELECT COUNT... ${$GLOBALS['ecs']-&gt;table('comment')}" />
+            <marker date="1503714702723" expanded="true" signature="47877:48068" ph="SELECT * FRO... ${$GLOBALS['ecs']-&gt;table('comment')}" />
+            <marker date="1503714702723" expanded="true" signature="48969:49067" ph="SELECT * FRO... ${$GLOBALS['ecs']-&gt;table('comment')}" />
+            <marker date="1503714702723" expanded="true" signature="54308:54389" ph="SELECT user_... ${$GLOBALS['ecs']-&gt;table('users')}" />
+            <marker date="1503714702723" expanded="true" signature="54756:54848" ph="SELECT paren... ${$GLOBALS['ecs']-&gt;table('article_cat')}" />
+            <marker date="1503714702723" expanded="true" signature="55045:55142" ph="SELECT count... ${$GLOBALS['ecs']-&gt;table('article_cat')}" />
+            <marker date="1503714702723" expanded="true" signature="57170:57210" ph="SELECT cat_i... ${$GLOBALS['ecs']-&gt;table('article_cat')}" />
+            <marker date="1503714702723" expanded="true" signature="58451:58653" ph="SELECT libra... ${$GLOBALS['ecs']-&gt;table('template')}" />
+            <marker date="1503714702723" expanded="true" signature="59680:59788" ph="SELECT * FRO... ${$GLOBALS['ecs']-&gt;table('nav')}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/includes/init.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3800">
+          <caret line="201" column="0" lean-forward="false" selection-start-line="201" selection-start-column="0" selection-end-line="201" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/cls_template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21600">
+          <caret line="1091" column="17" lean-forward="false" selection-start-line="1091" selection-start-column="17" selection-end-line="1091" selection-end-column="17" />
+          <folding>
+            <marker date="1503731913410" expanded="true" signature="37991:37997" ph=" " />
+            <marker date="1503731913410" expanded="true" signature="38392:38398" ph=" " />
+            <marker date="1503731913410" expanded="true" signature="39062:39068" ph=" " />
+            <marker date="1503731913410" expanded="true" signature="39074:39080" ph=" " />
+            <marker date="1503731913410" expanded="true" signature="39153:39159" ph=" " />
+            <marker date="1503731913410" expanded="true" signature="39165:39171" ph=" " />
+            <marker date="1503731913410" expanded="true" signature="39989:39995" ph=" " />
+            <marker date="1503731913410" expanded="true" signature="40417:40423" ph=" " />
+            <marker date="1503731913410" expanded="true" signature="40806:40812" ph=" " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/templates/shop_config.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="51" column="17" lean-forward="false" selection-start-line="51" selection-start-column="17" selection-end-line="51" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/languages/zh_cn/admin/shop_config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="21" column="16" lean-forward="false" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/templates/shop_config_form.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="81" column="27" lean-forward="false" selection-start-line="81" selection-start-column="27" selection-end-line="81" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/Core/Core_c.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="6" lean-forward="false" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/goods_batch.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="545">
+          <caret line="920" column="14" lean-forward="false" selection-start-line="920" selection-start-column="14" selection-end-line="920" selection-end-column="14" />
+          <folding>
+            <marker date="1503734849384" expanded="true" signature="5874:5909" ph="SELECT MAX(g... ${$ecs-&gt;table('goods')}" />
+            <marker date="1503734849384" expanded="true" signature="7265:7300" ph="SELECT MAX(g... ${$ecs-&gt;table('goods')}" />
+            <marker date="1503734849384" expanded="true" signature="8580:8615" ph="SELECT MAX(g... ${$ecs-&gt;table('goods')}" />
+            <marker date="1503734849384" expanded="true" signature="10095:10130" ph="SELECT MAX(g... ${$ecs-&gt;table('goods')}" />
+            <marker date="1503734849384" expanded="true" signature="12557:12590" ph="SELECT brand... ${$ecs-&gt;table('brand')}" />
+            <marker date="1503734849384" expanded="true" signature="12961:12991" ph="SELECT MAX(g... ${$ecs-&gt;table('goods')}" />
+            <marker date="1503734849384" expanded="true" signature="15399:15496" ph="INSERT INTO ${$ecs-&gt;table('brand')}... " />
+            <marker date="1503734849384" expanded="true" signature="21991:22081" ph="SELECT DISTI... ${$ecs-&gt;table('goods')}" />
+            <marker date="1503734849384" expanded="true" signature="22244:22380" ph="SELECT DISTI... ${$ecs-&gt;table('goods')}" />
+            <marker date="1503734849384" expanded="true" signature="22532:22546" ph="SELECT * FRO... ${$ecs-&gt;table('products')}" />
+            <marker date="1503734849384" expanded="true" signature="23573:23626" ph="SELECT DISTI... ${$ecs-&gt;table('member_price')}" />
+            <marker date="1503734849384" expanded="true" signature="26810:26922" ph="SELECT COUNT... ${$ecs-&gt;table('member_price')}" />
+            <marker date="1503734849384" expanded="true" signature="27133:27236" ph="DELETE FROM " />
+            <marker date="1503734849384" expanded="true" signature="29893:30005" ph="SELECT COUNT... ${$ecs-&gt;table('member_price')}" />
+            <marker date="1503734849384" expanded="true" signature="30236:30339" ph="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/shop_config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1100">
+          <caret line="66" column="5" lean-forward="false" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
+          <folding>
+            <marker date="1503735229356" expanded="true" signature="3104:3126" ph="SELECT id, v... ${$ecs-&gt;table('shop_config')}" />
+            <marker date="1503735229356" expanded="true" signature="3527:3613" ph="SELECT * FRO... ${$ecs-&gt;table('shop_config')}" />
+            <marker date="1503735229356" expanded="true" signature="5924:6015" ph="SELECT regio... ${$ecs-&gt;table('region')}" />
+            <marker date="1503735229356" expanded="true" signature="6050:6142" ph="SELECT regio... ${$ecs-&gt;table('region')}" />
+            <marker date="1503735229356" expanded="true" signature="6173:6261" ph="SELECT regio... ${$ecs-&gt;table('region')}" />
+            <marker date="1503735229356" expanded="true" signature="9764:9902" ph="SELECT * FRO... ${$ecs-&gt;table('shop_config')}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/lib_common.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="190" column="1" lean-forward="false" selection-start-line="190" selection-start-column="1" selection-end-line="190" selection-end-column="1" />
+          <folding>
+            <marker date="1334114182000" expanded="true" signature="4139:4280" ph="SELECT regio... ${$GLOBALS['ecs']-&gt;table('region')}" />
+            <marker date="1334114182000" expanded="true" signature="4520:4625" ph="SELECT confi... ${$GLOBALS['ecs']-&gt;table('shipping_area')}" />
+            <marker date="1334114182000" expanded="true" signature="15010:15099" ph="SELECT code,... ${$GLOBALS['ecs']-&gt;table('shop_config')}" />
+            <marker date="1334114182000" expanded="true" signature="19083:19175" ph="SELECT brand... ${$GLOBALS['ecs']-&gt;table('brand')}" />
+            <marker date="1334114182000" expanded="true" signature="21148:21331" ph="SELECT act_i... ${$GLOBALS['ecs']-&gt;table('goods_activity')}" />
+            <marker date="1334114182000" expanded="true" signature="23842:24028" ph="SELECT act_i... ${$GLOBALS['ecs']-&gt;table('favourable_activity')}" />
+            <marker date="1334114182000" expanded="true" signature="24767:24874" ph="SELECT cat_i... ${$GLOBALS['ecs']-&gt;table('goods')}" />
+            <marker date="1334114182000" expanded="true" signature="29231:29369" ph="SELECT templ... ${$GLOBALS['ecs']-&gt;table('mail_templates')}" />
+            <marker date="1334114182000" expanded="true" signature="29981:30412" ph="INSERT INTO ${$GLOBALS['ecs']-&gt;table('order_action')}... " />
+            <marker date="1334114182000" expanded="true" signature="30177:30412" ph="SELECT order... ${$GLOBALS['ecs']-&gt;table('order_info')}" />
+            <marker date="1334114182000" expanded="true" signature="32012:32200" ph="SELECT goods... ${$GLOBALS['ecs']-&gt;table('order_goods')}" />
+            <marker date="1334114182000" expanded="true" signature="32240:32498" ph="SELECT goods... ${$GLOBALS['ecs']-&gt;table('order_goods')}" />
+            <marker date="1334114182000" expanded="true" signature="34404:34520" ph="SELECT COUNT... ${$GLOBALS['ecs']-&gt;table('virtual_card')}" />
+            <marker date="1334114182000" expanded="true" signature="34749:34913" ph="SELECT card_... ${$GLOBALS['ecs']-&gt;table('virtual_card')}" />
+            <marker date="1334114182000" expanded="true" signature="36514:36633" ph="SELECT order... ${$GLOBALS['ecs']-&gt;table('order_info')}" />
+            <marker date="1334114182000" expanded="true" signature="38472:38628" ph="SELECT card_... ${$GLOBALS['ecs']-&gt;table('virtual_card')}" />
+            <marker date="1334114182000" expanded="true" signature="40476:40655" ph="SELECT ext_i... ${$GLOBALS['ecs']-&gt;table('goods_activity')}" />
+            <marker date="1334114182000" expanded="true" signature="69944:70313" ph="SELECT a.att... ${$GLOBALS['ecs']-&gt;table('attribute')}" />
+            <marker date="1334114182000" expanded="true" signature="70884:71253" ph="SELECT a.att... ${$GLOBALS['ecs']-&gt;table('attribute')}" />
+            <marker date="1334114182000" expanded="true" signature="74805:75223" ph="SELECT pg.go... ${$GLOBALS['ecs']-&gt;table('package_goods')}" />
+            <marker date="1334114182000" expanded="true" signature="76159:76277" ph="SELECT goods... ${$GLOBALS['ecs']-&gt;table('goods_attr')}" />
+            <marker date="1334114182000" expanded="true" signature="77828:77900" ph="SELECT * FRO... ${$GLOBALS['ecs']-&gt;table('products')}" />
+            <marker date="1334114182000" expanded="true" signature="77996:78083" ph="SELECT goods... ${$GLOBALS['ecs']-&gt;table('goods_attr')}" />
+            <marker date="1334114182000" expanded="true" signature="79491:79764" ph="SELECT ga.go... ${$GLOBALS['ecs']-&gt;table('goods_attr')}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

@@ -229,7 +229,7 @@ class cls_mysql
         }
     }
 
-    function fetch_array($query, $result_type = MYSQL_ASSOC)
+    function fetch_array($query, $result_type = MYSQLI_BOTH)
     {
         return mysqli_fetch_array($query, $result_type);
     }

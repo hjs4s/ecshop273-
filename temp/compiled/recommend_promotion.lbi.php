@@ -2,16 +2,16 @@
 <div id="sales" class="f_l clearfix">
       <h1><a href="search.php?intro=promotion"><img src="themes/default/images/more.gif" /></a></h1>
        <div class="clearfix goodBox">
-         <?php $_from = $this->_var['promotion_goods']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'goods_0_35525400_1503747058');$this->_foreach['promotion_foreach'] = array('total' => count($_from), 'iteration' => 0);
+         <?php $_from = $this->_var['promotion_goods']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'goods_0_04810900_1503756767');$this->_foreach['promotion_foreach'] = array('total' => count($_from), 'iteration' => 0);
 if ($this->_foreach['promotion_foreach']['total'] > 0):
-    foreach ($_from AS $this->_var['goods_0_35525400_1503747058']):
+    foreach ($_from AS $this->_var['goods_0_04810900_1503756767']):
         $this->_foreach['promotion_foreach']['iteration']++;
 ?>
          <?php if (($this->_foreach['promotion_foreach']['iteration'] - 1) <= 3): ?>
            <div class="goodList">
-           <a href="<?php echo $this->_var['goods_0_35525400_1503747058']['url']; ?>"><img src="<?php echo $this->_var['goods_0_35525400_1503747058']['thumb']; ?>" border="0" alt="<?php echo htmlspecialchars($this->_var['goods_0_35525400_1503747058']['name']); ?>"/></a><br />
-					 <p><a href="<?php echo $this->_var['goods_0_35525400_1503747058']['url']; ?>" title="<?php echo htmlspecialchars($this->_var['goods_0_35525400_1503747058']['name']); ?>"><?php echo htmlspecialchars($this->_var['goods_0_35525400_1503747058']['short_name']); ?></a></p>
-           <?php echo $this->_var['lang']['promote_price']; ?><font class="f1"><?php echo $this->_var['goods_0_35525400_1503747058']['promote_price']; ?></font>
+           <a href="<?php echo $this->_var['goods_0_04810900_1503756767']['url']; ?>"><img src="<?php echo $this->_var['goods_0_04810900_1503756767']['thumb']; ?>" border="0" alt="<?php echo htmlspecialchars($this->_var['goods_0_04810900_1503756767']['name']); ?>"/></a><br />
+					 <p><a href="<?php echo $this->_var['goods_0_04810900_1503756767']['url']; ?>" title="<?php echo htmlspecialchars($this->_var['goods_0_04810900_1503756767']['name']); ?>"><?php echo htmlspecialchars($this->_var['goods_0_04810900_1503756767']['short_name']); ?></a></p>
+           <?php echo $this->_var['lang']['promote_price']; ?><font class="f1"><?php echo $this->_var['goods_0_04810900_1503756767']['promote_price']; ?></font>
            </div>
          <?php endif; ?>
          <?php endforeach; endif; unset($_from); ?><?php $this->pop_vars();; ?>

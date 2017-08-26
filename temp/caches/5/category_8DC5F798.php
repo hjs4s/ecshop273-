@@ -1,4 +1,4 @@
-<?php exit;?>a:3:{s:8:"template";a:11:{i:0;s:47:"D:/wwwroot/ecshop27/themes/default/category.dwt";i:1;s:58:"D:/wwwroot/ecshop27/themes/default/library/page_header.lbi";i:2;s:54:"D:/wwwroot/ecshop27/themes/default/library/ur_here.lbi";i:3;s:51:"D:/wwwroot/ecshop27/themes/default/library/cart.lbi";i:4;s:60:"D:/wwwroot/ecshop27/themes/default/library/category_tree.lbi";i:5;s:54:"D:/wwwroot/ecshop27/themes/default/library/history.lbi";i:6;s:61:"D:/wwwroot/ecshop27/themes/default/library/recommend_best.lbi";i:7;s:57:"D:/wwwroot/ecshop27/themes/default/library/goods_list.lbi";i:8;s:52:"D:/wwwroot/ecshop27/themes/default/library/pages.lbi";i:9;s:51:"D:/wwwroot/ecshop27/themes/default/library/help.lbi";i:10;s:58:"D:/wwwroot/ecshop27/themes/default/library/page_footer.lbi";}s:7:"expires";i:1503750660;s:8:"maketime";i:1503747060;}<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<?php exit;?>a:3:{s:8:"template";a:11:{i:0;s:46:"D:/wwwroot/ecshop2/themes/default/category.dwt";i:1;s:57:"D:/wwwroot/ecshop2/themes/default/library/page_header.lbi";i:2;s:53:"D:/wwwroot/ecshop2/themes/default/library/ur_here.lbi";i:3;s:50:"D:/wwwroot/ecshop2/themes/default/library/cart.lbi";i:4;s:59:"D:/wwwroot/ecshop2/themes/default/library/category_tree.lbi";i:5;s:53:"D:/wwwroot/ecshop2/themes/default/library/history.lbi";i:6;s:60:"D:/wwwroot/ecshop2/themes/default/library/recommend_best.lbi";i:7;s:56:"D:/wwwroot/ecshop2/themes/default/library/goods_list.lbi";i:8;s:51:"D:/wwwroot/ecshop2/themes/default/library/pages.lbi";i:9;s:50:"D:/wwwroot/ecshop2/themes/default/library/help.lbi";i:10;s:57:"D:/wwwroot/ecshop2/themes/default/library/page_footer.lbi";}s:7:"expires";i:1503760360;s:8:"maketime";i:1503756760;}<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta name="Generator" content="ECSHOP v2.7.3" />
@@ -396,7 +396,7 @@ var btn_buy = "购买";
 var is_cancel = "取消";
 var select_spe = "请选择商品属性";
 </script>  
-<form name="selectPageForm" action="/ecshop27/category.php" method="get">
+<form name="selectPageForm" action="/ecshop2/category.php" method="get">
  <div id="pager" class="pagebar">
   <span class="f_l f6" style="margin-right:10px;">总计 <b>12</b>  个记录</span>
                       <span class="page_now">1</span>
@@ -490,7 +490,7 @@ function selectPage(sel)
  &copy; 2005-2017 ECSHOP 版权所有，并保留所有权利。<br />
                                                                                      <br />
     554fcae493e564ee0dc75bdf2ebf94caquery_info|a:1:{s:4:"name";s:10:"query_info";}554fcae493e564ee0dc75bdf2ebf94ca<br />
-  <a href="http://www.ecshop.com" target="_blank" style=" font-family:Verdana; font-size:11px;">Powered&nbsp;by&nbsp;<strong><span style="color: #3366FF">ECShop</span>&nbsp;<span style="color: #FF9966">v2.7.3</span></strong></a>&nbsp;<a href="http://www.ecshop.com/license.php?product=ecshop_b2c&url=http%3A%2F%2Flocalhost%2Fecshop27%2F" target="_blank"
+  <a href="http://www.ecshop.com" target="_blank" style=" font-family:Verdana; font-size:11px;">Powered&nbsp;by&nbsp;<strong><span style="color: #3366FF">ECShop</span>&nbsp;<span style="color: #FF9966">v2.7.3</span></strong></a>&nbsp;<a href="http://www.ecshop.com/license.php?product=ecshop_b2c&url=http%3A%2F%2Flocalhost%2Fecshop2%2F" target="_blank"
 >&nbsp;&nbsp;Licensed</a><br />
         <div align="left"  id="rss"><a href="feed.php?cat=3"><img src="themes/default/images/xml_rss2.gif" alt="rss" /></a></div>
  </div>

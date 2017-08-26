@@ -62,7 +62,7 @@ class shopex47
     var $tcharset;
 
     /* 构造函数 */
-    function shopex47(&$sdb, $sprefix, $sroot, $scharset = 'UTF8')
+    function __construct(&$sdb, $sprefix, $sroot, $scharset = 'UTF8')
     {
         $this->sdb = $sdb;
         $this->sprefix = $sprefix;

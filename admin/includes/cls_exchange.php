@@ -40,7 +40,7 @@ class exchange
      *
      * @return void
      */
-    function exchange($table, &$db , $id, $name)
+    function __construct($table, &$db , $id, $name)
     {
         $this->table     = $table;
         $this->db        = &$db;

@@ -99,7 +99,7 @@ class ems
      *
      * @return null
      */
-    function ems($cfg=array())
+    function __construct($cfg=array())
     {
         foreach ($cfg AS $key=>$val)
         {

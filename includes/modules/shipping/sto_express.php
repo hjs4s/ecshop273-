@@ -101,7 +101,7 @@ class sto_express
      *
      * @return null
      */
-    function sto_express($cfg=array())
+    function __construct($cfg=array())
     {
         foreach ($cfg AS $key=>$val)
         {

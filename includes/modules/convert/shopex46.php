@@ -80,7 +80,7 @@ class shopex46
     /**
      * 构造函数
      */
-    function shopex46(&$sdb, $sprefix, $sroot, $scharset = 'UTF8')
+    function __construct(&$sdb, $sprefix, $sroot, $scharset = 'UTF8')
     {
         $this->sdb = $sdb;
         $this->sprefix = $sprefix;

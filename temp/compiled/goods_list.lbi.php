@@ -29,42 +29,42 @@
     <?php endif; ?>
     <?php if ($this->_var['pager']['display'] == 'list'): ?>
     <div class="goodsList">
-    <?php $_from = $this->_var['goods_list']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'goods_0_85239100_1503736461');$this->_foreach['goods_list'] = array('total' => count($_from), 'iteration' => 0);
+    <?php $_from = $this->_var['goods_list']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'goods_0_86571700_1503756726');$this->_foreach['goods_list'] = array('total' => count($_from), 'iteration' => 0);
 if ($this->_foreach['goods_list']['total'] > 0):
-    foreach ($_from AS $this->_var['goods_0_85239100_1503736461']):
+    foreach ($_from AS $this->_var['goods_0_86571700_1503756726']):
         $this->_foreach['goods_list']['iteration']++;
 ?>
     <ul class="clearfix bgcolor"<?php if (($this->_foreach['goods_list']['iteration'] - 1) % 2 == 0): ?>id=""<?php else: ?>id="bgcolor"<?php endif; ?>>
     <li>
     <br>
-    <a href="javascript:;" id="compareLink" onClick="Compare.add(<?php echo $this->_var['goods_0_85239100_1503736461']['goods_id']; ?>,'<?php echo htmlspecialchars($this->_var['goods_0_85239100_1503736461']['goods_name']); ?>','<?php echo $this->_var['goods_0_85239100_1503736461']['type']; ?>')" class="f6">比较</a>
+    <a href="javascript:;" id="compareLink" onClick="Compare.add(<?php echo $this->_var['goods_0_86571700_1503756726']['goods_id']; ?>,'<?php echo htmlspecialchars($this->_var['goods_0_86571700_1503756726']['goods_name']); ?>','<?php echo $this->_var['goods_0_86571700_1503756726']['type']; ?>')" class="f6">比较</a>
     </li>
-    <li class="thumb"><a href="<?php echo $this->_var['goods_0_85239100_1503736461']['url']; ?>"><img src="<?php echo $this->_var['goods_0_85239100_1503736461']['goods_thumb']; ?>" alt="<?php echo $this->_var['goods_0_85239100_1503736461']['goods_name']; ?>" /></a></li>
+    <li class="thumb"><a href="<?php echo $this->_var['goods_0_86571700_1503756726']['url']; ?>"><img src="<?php echo $this->_var['goods_0_86571700_1503756726']['goods_thumb']; ?>" alt="<?php echo $this->_var['goods_0_86571700_1503756726']['goods_name']; ?>" /></a></li>
     <li class="goodsName">
-    <a href="<?php echo $this->_var['goods_0_85239100_1503736461']['url']; ?>" class="f6">
-        <?php if ($this->_var['goods_0_85239100_1503736461']['goods_style_name']): ?>
-        <?php echo $this->_var['goods_0_85239100_1503736461']['goods_style_name']; ?><br />
+    <a href="<?php echo $this->_var['goods_0_86571700_1503756726']['url']; ?>" class="f6">
+        <?php if ($this->_var['goods_0_86571700_1503756726']['goods_style_name']): ?>
+        <?php echo $this->_var['goods_0_86571700_1503756726']['goods_style_name']; ?><br />
         <?php else: ?>
-        <?php echo $this->_var['goods_0_85239100_1503736461']['goods_name']; ?><br />
+        <?php echo $this->_var['goods_0_86571700_1503756726']['goods_name']; ?><br />
         <?php endif; ?>
       </a>
-     <?php if ($this->_var['goods_0_85239100_1503736461']['goods_brief']): ?>
-    <?php echo $this->_var['lang']['goods_brief']; ?><?php echo $this->_var['goods_0_85239100_1503736461']['goods_brief']; ?><br />
+     <?php if ($this->_var['goods_0_86571700_1503756726']['goods_brief']): ?>
+    <?php echo $this->_var['lang']['goods_brief']; ?><?php echo $this->_var['goods_0_86571700_1503756726']['goods_brief']; ?><br />
     <?php endif; ?>
     </li>
     <li>
     <?php if ($this->_var['show_marketprice']): ?>
-    <?php echo $this->_var['lang']['market_price']; ?><font class="market"><?php echo $this->_var['goods_0_85239100_1503736461']['market_price']; ?></font><br />
+    <?php echo $this->_var['lang']['market_price']; ?><font class="market"><?php echo $this->_var['goods_0_86571700_1503756726']['market_price']; ?></font><br />
     <?php endif; ?>
-    <?php if ($this->_var['goods_0_85239100_1503736461']['promote_price'] != ""): ?>
-    <?php echo $this->_var['lang']['promote_price']; ?><font class="shop"><?php echo $this->_var['goods_0_85239100_1503736461']['promote_price']; ?></font><br />
+    <?php if ($this->_var['goods_0_86571700_1503756726']['promote_price'] != ""): ?>
+    <?php echo $this->_var['lang']['promote_price']; ?><font class="shop"><?php echo $this->_var['goods_0_86571700_1503756726']['promote_price']; ?></font><br />
     <?php else: ?>
-    <?php echo $this->_var['lang']['shop_price']; ?><font class="shop"><?php echo $this->_var['goods_0_85239100_1503736461']['shop_price']; ?></font><br />
+    <?php echo $this->_var['lang']['shop_price']; ?><font class="shop"><?php echo $this->_var['goods_0_86571700_1503756726']['shop_price']; ?></font><br />
     <?php endif; ?>
     </li>
     <li class="action">
-    <a href="javascript:collect(<?php echo $this->_var['goods_0_85239100_1503736461']['goods_id']; ?>);" class="abg f6"><?php echo $this->_var['lang']['favourable_goods']; ?></a>
-    <a href="javascript:addToCart(<?php echo $this->_var['goods_0_85239100_1503736461']['goods_id']; ?>)"><img src="themes/default/images/bnt_buy_1.gif"></a>
+    <a href="javascript:collect(<?php echo $this->_var['goods_0_86571700_1503756726']['goods_id']; ?>);" class="abg f6"><?php echo $this->_var['lang']['favourable_goods']; ?></a>
+    <a href="javascript:addToCart(<?php echo $this->_var['goods_0_86571700_1503756726']['goods_id']; ?>)"><img src="themes/default/images/bnt_buy_1.gif"></a>
     </li>
     </ul>
     <?php endforeach; endif; unset($_from); ?><?php $this->pop_vars();; ?>
@@ -72,24 +72,24 @@ if ($this->_foreach['goods_list']['total'] > 0):
     <?php elseif ($this->_var['pager']['display'] == 'grid'): ?>
     <div class="centerPadd">
     <div class="clearfix goodsBox" style="border:none;">
-    <?php $_from = $this->_var['goods_list']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'goods_0_85338600_1503736461');if (count($_from)):
-    foreach ($_from AS $this->_var['goods_0_85338600_1503736461']):
+    <?php $_from = $this->_var['goods_list']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'goods_0_86581000_1503756726');if (count($_from)):
+    foreach ($_from AS $this->_var['goods_0_86581000_1503756726']):
 ?>
-    <?php if ($this->_var['goods_0_85338600_1503736461']['goods_id']): ?>
+    <?php if ($this->_var['goods_0_86581000_1503756726']['goods_id']): ?>
      <div class="goodsItem">
-           <a href="<?php echo $this->_var['goods_0_85338600_1503736461']['url']; ?>"><img src="<?php echo $this->_var['goods_0_85338600_1503736461']['goods_thumb']; ?>" alt="<?php echo $this->_var['goods_0_85338600_1503736461']['goods_name']; ?>" class="goodsimg" /></a><br />
-           <p><a href="<?php echo $this->_var['goods_0_85338600_1503736461']['url']; ?>" title="<?php echo htmlspecialchars($this->_var['goods_0_85338600_1503736461']['name']); ?>"><?php echo $this->_var['goods_0_85338600_1503736461']['goods_name']; ?></a></p>
+           <a href="<?php echo $this->_var['goods_0_86581000_1503756726']['url']; ?>"><img src="<?php echo $this->_var['goods_0_86581000_1503756726']['goods_thumb']; ?>" alt="<?php echo $this->_var['goods_0_86581000_1503756726']['goods_name']; ?>" class="goodsimg" /></a><br />
+           <p><a href="<?php echo $this->_var['goods_0_86581000_1503756726']['url']; ?>" title="<?php echo htmlspecialchars($this->_var['goods_0_86581000_1503756726']['name']); ?>"><?php echo $this->_var['goods_0_86581000_1503756726']['goods_name']; ?></a></p>
            <?php if ($this->_var['show_marketprice']): ?>
-            <?php echo $this->_var['lang']['market_prices']; ?><font class="market_s"><?php echo $this->_var['goods_0_85338600_1503736461']['market_price']; ?></font><br />
+            <?php echo $this->_var['lang']['market_prices']; ?><font class="market_s"><?php echo $this->_var['goods_0_86581000_1503756726']['market_price']; ?></font><br />
             <?php endif; ?>
-            <?php if ($this->_var['goods_0_85338600_1503736461']['promote_price'] != ""): ?>
-            <?php echo $this->_var['lang']['promote_price']; ?><font class="shop_s"><?php echo $this->_var['goods_0_85338600_1503736461']['promote_price']; ?></font><br />
+            <?php if ($this->_var['goods_0_86581000_1503756726']['promote_price'] != ""): ?>
+            <?php echo $this->_var['lang']['promote_price']; ?><font class="shop_s"><?php echo $this->_var['goods_0_86581000_1503756726']['promote_price']; ?></font><br />
             <?php else: ?>
-            <?php echo $this->_var['lang']['shop_prices']; ?><font class="shop_s"><?php echo $this->_var['goods_0_85338600_1503736461']['shop_price']; ?></font><br />
+            <?php echo $this->_var['lang']['shop_prices']; ?><font class="shop_s"><?php echo $this->_var['goods_0_86581000_1503756726']['shop_price']; ?></font><br />
             <?php endif; ?>
-           <a href="javascript:collect(<?php echo $this->_var['goods_0_85338600_1503736461']['goods_id']; ?>);" class="f6"><?php echo $this->_var['lang']['btn_collect']; ?></a> |
-           <a href="javascript:addToCart(<?php echo $this->_var['goods_0_85338600_1503736461']['goods_id']; ?>)" class="f6"><?php echo $this->_var['lang']['btn_buy']; ?></a> |
-           <a href="javascript:;" id="compareLink" onClick="Compare.add(<?php echo $this->_var['goods_0_85338600_1503736461']['goods_id']; ?>,'<?php echo htmlspecialchars($this->_var['goods_0_85338600_1503736461']['goods_name']); ?>','<?php echo $this->_var['goods_0_85338600_1503736461']['type']; ?>')" class="f6"><?php echo $this->_var['lang']['compare']; ?></a>
+           <a href="javascript:collect(<?php echo $this->_var['goods_0_86581000_1503756726']['goods_id']; ?>);" class="f6"><?php echo $this->_var['lang']['btn_collect']; ?></a> |
+           <a href="javascript:addToCart(<?php echo $this->_var['goods_0_86581000_1503756726']['goods_id']; ?>)" class="f6"><?php echo $this->_var['lang']['btn_buy']; ?></a> |
+           <a href="javascript:;" id="compareLink" onClick="Compare.add(<?php echo $this->_var['goods_0_86581000_1503756726']['goods_id']; ?>,'<?php echo htmlspecialchars($this->_var['goods_0_86581000_1503756726']['goods_name']); ?>','<?php echo $this->_var['goods_0_86581000_1503756726']['type']; ?>')" class="f6"><?php echo $this->_var['lang']['compare']; ?></a>
         </div>
     <?php endif; ?>
     <?php endforeach; endif; unset($_from); ?><?php $this->pop_vars();; ?>
@@ -97,38 +97,38 @@ if ($this->_foreach['goods_list']['total'] > 0):
     </div>
     <?php elseif ($this->_var['pager']['display'] == 'text'): ?>
     <div class="goodsList">
-    <?php $_from = $this->_var['goods_list']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'goods_0_85417400_1503736461');if (count($_from)):
-    foreach ($_from AS $this->_var['goods_0_85417400_1503736461']):
+    <?php $_from = $this->_var['goods_list']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array'); }; $this->push_vars('', 'goods_0_86586800_1503756726');if (count($_from)):
+    foreach ($_from AS $this->_var['goods_0_86586800_1503756726']):
 ?>
      <ul class="clearfix bgcolor"<?php if (($this->_foreach['goods_list']['iteration'] - 1) % 2 == 0): ?>id=""<?php else: ?>id="bgcolor"<?php endif; ?>>
     <li style="margin-right:15px;">
-    <a href="javascript:;" id="compareLink" onClick="Compare.add(<?php echo $this->_var['goods_0_85417400_1503736461']['goods_id']; ?>,'<?php echo htmlspecialchars($this->_var['goods_0_85417400_1503736461']['goods_name']); ?>','<?php echo $this->_var['goods_0_85417400_1503736461']['type']; ?>')" class="f6"><?php echo $this->_var['lang']['compare']; ?></a>
+    <a href="javascript:;" id="compareLink" onClick="Compare.add(<?php echo $this->_var['goods_0_86586800_1503756726']['goods_id']; ?>,'<?php echo htmlspecialchars($this->_var['goods_0_86586800_1503756726']['goods_name']); ?>','<?php echo $this->_var['goods_0_86586800_1503756726']['type']; ?>')" class="f6"><?php echo $this->_var['lang']['compare']; ?></a>
     </li>
     <li class="goodsName">
-    <a href="<?php echo $this->_var['goods_0_85417400_1503736461']['url']; ?>" class="f6 f5">
-        <?php if ($this->_var['goods_0_85417400_1503736461']['goods_style_name']): ?>
-        <?php echo $this->_var['goods_0_85417400_1503736461']['goods_style_name']; ?><br />
+    <a href="<?php echo $this->_var['goods_0_86586800_1503756726']['url']; ?>" class="f6 f5">
+        <?php if ($this->_var['goods_0_86586800_1503756726']['goods_style_name']): ?>
+        <?php echo $this->_var['goods_0_86586800_1503756726']['goods_style_name']; ?><br />
         <?php else: ?>
-        <?php echo $this->_var['goods_0_85417400_1503736461']['goods_name']; ?><br />
+        <?php echo $this->_var['goods_0_86586800_1503756726']['goods_name']; ?><br />
         <?php endif; ?>
       </a>
-     <?php if ($this->_var['goods_0_85417400_1503736461']['goods_brief']): ?>
-    <?php echo $this->_var['lang']['goods_brief']; ?><?php echo $this->_var['goods_0_85417400_1503736461']['goods_brief']; ?><br />
+     <?php if ($this->_var['goods_0_86586800_1503756726']['goods_brief']): ?>
+    <?php echo $this->_var['lang']['goods_brief']; ?><?php echo $this->_var['goods_0_86586800_1503756726']['goods_brief']; ?><br />
     <?php endif; ?>
     </li>
     <li>
     <?php if ($this->_var['show_marketprice']): ?>
-    <?php echo $this->_var['lang']['market_price']; ?><font class="market"><?php echo $this->_var['goods_0_85417400_1503736461']['market_price']; ?></font><br />
+    <?php echo $this->_var['lang']['market_price']; ?><font class="market"><?php echo $this->_var['goods_0_86586800_1503756726']['market_price']; ?></font><br />
     <?php endif; ?>
-    <?php if ($this->_var['goods_0_85417400_1503736461']['promote_price'] != ""): ?>
-    <?php echo $this->_var['lang']['promote_price']; ?><font class="shop"><?php echo $this->_var['goods_0_85417400_1503736461']['promote_price']; ?></font><br />
+    <?php if ($this->_var['goods_0_86586800_1503756726']['promote_price'] != ""): ?>
+    <?php echo $this->_var['lang']['promote_price']; ?><font class="shop"><?php echo $this->_var['goods_0_86586800_1503756726']['promote_price']; ?></font><br />
     <?php else: ?>
-    <?php echo $this->_var['lang']['shop_price']; ?><font class="shop"><?php echo $this->_var['goods_0_85417400_1503736461']['shop_price']; ?></font><br />
+    <?php echo $this->_var['lang']['shop_price']; ?><font class="shop"><?php echo $this->_var['goods_0_86586800_1503756726']['shop_price']; ?></font><br />
     <?php endif; ?>
     </li>
     <li class="action">
-    <a href="javascript:collect(<?php echo $this->_var['goods_0_85417400_1503736461']['goods_id']; ?>);" class="abg f6"><?php echo $this->_var['lang']['favourable_goods']; ?></a>
-    <a href="javascript:addToCart(<?php echo $this->_var['goods_0_85417400_1503736461']['goods_id']; ?>)"><img src="themes/default/images/bnt_buy_1.gif"></a>
+    <a href="javascript:collect(<?php echo $this->_var['goods_0_86586800_1503756726']['goods_id']; ?>);" class="abg f6"><?php echo $this->_var['lang']['favourable_goods']; ?></a>
+    <a href="javascript:addToCart(<?php echo $this->_var['goods_0_86586800_1503756726']['goods_id']; ?>)"><img src="themes/default/images/bnt_buy_1.gif"></a>
     </li>
     </ul>
     <?php endforeach; endif; unset($_from); ?><?php $this->pop_vars();; ?>

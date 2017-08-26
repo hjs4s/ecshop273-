@@ -38,12 +38,15 @@ class cls_session
     var $_ip   = '';
     var $_time = 0;
 
+    /**
+     * cls_session constructor.
+     * @param $db
+     * @param $session_table
+     * @param $session_data_table
+     * @param string $session_name
+     * @param string $session_id
+     */
     function __construct(&$db, $session_table, $session_data_table, $session_name = 'ECS_ID', $session_id = '')
-    {
-        $this->cls_session($db, $session_table, $session_data_table, $session_name, $session_id);
-    }
-
-    function cls_session(&$db, $session_table, $session_data_table, $session_name = 'ECS_ID', $session_id = '')
     {
         $GLOBALS['_SESSION'] = array();
 

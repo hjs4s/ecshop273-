@@ -38,12 +38,10 @@ class cls_template
     var $_temp_key      = array();  // 临时存放 foreach 里 key 的数组
     var $_temp_val      = array();  // 临时存放 foreach 里 item 的数组
 
+    /**
+     * cls_template constructor.
+     */
     function __construct()
-    {
-        $this->cls_template();
-    }
-
-    function cls_template()
     {
         $this->_errorlevel = error_reporting();
         $this->_nowtime    = time();

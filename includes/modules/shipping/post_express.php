@@ -110,7 +110,7 @@ class post_express
      *
      * @return null
      */
-    function post_express($cfg=array())
+    function __construct($cfg=array())
     {
         foreach ($cfg AS $key=>$val)
         {

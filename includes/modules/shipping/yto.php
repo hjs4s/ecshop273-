@@ -94,7 +94,7 @@ class yto
      *
      * @return null
      */
-    function yto($cfg = array())
+    function __construct($cfg = array())
     {
         foreach ($cfg AS $key=>$val)
         {

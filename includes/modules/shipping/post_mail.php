@@ -96,7 +96,7 @@ class post_mail
      *
      * @return null
      */
-    function post_mail($cfg=array())
+    function __construct($cfg=array())
     {
         foreach ($cfg AS $key=>$val)
         {
